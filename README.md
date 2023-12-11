@@ -95,7 +95,8 @@ evaluator.evaluate()
 ```
 The {mode} can be set as "standard", "custom-timm", and "custom-custom".
 
-```mode="standard"```, the victim models are ResNet-50, VGG-19, Inception v3, EfficientNetV2-M, ConvNeXt-B, ViT-B, DeiT-B, BEiT-B, Swin-B, and MLP Mixer-B, and ```victims``` need not to be set.\
+```mode="standard"```, the victim models are ResNet-50, VGG-19, Inception v3, EfficientNetV2-M, ConvNeXt-B, ViT-B, DeiT-B, BEiT-B, Swin-B, and MLP Mixer-B, and ```victims``` need not to be set.
+
 ```mode="custom-timm"```, you can select the victim models from ```timm```, for instance, set ```victims=["tv_resnet152", "resnext101_64x4d"]```.
 
 ```mode="custom-custom"```, you can also provide your own victim models by setting ```victims=[victim_dict_1, victim_dict_2]```. For each ```victim_dict```, prepare them as ```{"model_name": model_name, "model": model, "preprocessing": preprocessing}```, in which the ```model``` is your victim model, and ```preprocessing``` is the pre-processing pipeline.
