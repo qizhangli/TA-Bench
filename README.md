@@ -69,7 +69,7 @@ class_index,class,image_name
 ```
 
 #### Models
-Some methods require their own trained models, such as "substitute model training" methods and "generative modeling" methods. Download these models from [Google Drive](TBD).
+Some methods require their own trained models, such as "substitute model training" methods and "generative modeling" methods. Download these models from [Google Drive](https://drive.google.com/file/d/1Bv82t4JTXsLDrzjekYjeqTrlSPTS5x3N/view?usp=sharing).
 
 ### Attack
 To generate adversarial examples using {method} and {substitute_model}, and save the adversarial examples in {save_dir}:
